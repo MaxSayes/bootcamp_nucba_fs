@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 - Presentacion</title>
+</head>
+<body>
+    <h1>MAXIMILIANO SAYES MANDOLINI</h1> <!--Es importante la jerarquia de la informacion - el H1 es el mas imporante, es lo que mas queremos mostrar en nuestra pagina! ademas que es lo mas importante para los motores de busqueda -->
+
+    <a href="https://www.linkedin.com/in/maximilianosayesm/" target=blank_ a><img src="./asset/Foto maxi.jpg" alt="Foto presentacion Sayes Maxi"></a>
+
+    <ul> <!--ESTO ES UNA LISTA DESORDENADA-->
+    <li>26 AÑOS</li>
+    <li>MAXIMILIANO</li>
+    <li>SAYES MANDOLINI</li>
+    <li>maxis.trc@gmail.com</li>
+    </ul>
+
+    <p>Hincha de River, Abogado, estudiante de desarrollo Full Stack, comenzando a sumergirme en el mundo digital!</p>
+
+    <section>
+    <h1>Titulo de la Seccion</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim similique iste dicta alias cumque, mollitia est asperiores sint, aut ab accusantium facilis doloremque, inventore assumenda cupiditate! Quis nostrum eos animi!</p>
+    </section> <!-- ejemplo de elemento semantico-->
+
+    <article> aca ponemos un articulo blablabla</article> <!-- otro ejemplo de elemento semantico-->
+
+    <!-- DIV etiqueta contenedor Es la etiqueta mas funcional para java y css, por si sola no hace nada, pero nos ayuda a dividir por estilos -->
+    <div>
+
+    </div>
+    <FORM>     <!--  etiqueta para crear formularios -->
+        <p>Ahora practicamos formularios:</p>
+        <label for="Nombre">Nombre y apellido</label> <!--esta etiqueta es para darle un nombre al form (al lado)-->
+        <input name "Nombre" type="text" placeholder="nos indica que va adentro del input"> <!-- el input nos permite introducir textos (espacios para llenar/tipear) -->
+        <br> 
+        <label for="Mail">Mail</label>
+        <input name= "Mail" type="email"> 
+        <br>
+        <label type="password">Contraseña</label>
+        <input type="password" required> <!-- el campo required: es para que el campo sea obligatorio en la pagina -->
+        <br>
+        <label for="number">Edad</label>    
+        <input type="number">
+        <br>
+        <label for="date">Fecha de nacimiento</label>
+        <input type="date">
+        <br>
+        <label for="color">Color preferido</label>
+        <input type="color">
+        <br>
+        <label for="checkbox">Acepto los terminos y condiciones</label>
+        <input type="checkbox">
+        <br>
+        <label for="file">Adjunte su documento</label>
+        <input type="file"> <!--Para adjuntar archivos-->
+        <br>
+        <input type="submit"> <!--Para Finalizar y enviar datos al servidor -->
+    </FORM>
+
+    <label for="Sexo">Sexo</label>
+    <select name="Sexo"> <!--ETIQUETA PARA SELECCIONAR DETERMINADAS OPCIONES -  (CUADRO DESPLEGABLE) -->
+        <option value="Femenino">F</option> <!--lo que esta entre comillas es la informacion que va a enviar al servidor, la inicial es la opcion visible-->
+        <option value="Masculino">M</option>
+        <option value="No binario">X</option>
+    </select>
+    <br>
+    <p>Probamos como adjuntar un video:</p>
+    <video  height="240" controls autoplay src="./video/video.mp4" </video> <!--controls autoplay: nos permite ponerle los botones de play pausa volumen etc-->
+</body>
+</html>
